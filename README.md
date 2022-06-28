@@ -20,23 +20,24 @@
 
 <p>This file contains the MovementController class which contains the funtions for printing and scanning magentic patterns.</p>
 
-<ol>
 The file currently runs a program called run_sensor which allows for all functionality of both priniting and scanning. before running this program it is important to make not of certain varioable which will need to be changed to suit the setup of the user.
+<ol>
 <li>Sensor and Printer coms are set up in the init. Before running the program, change these values to the coms used for your device. remeber that the sensor com is for the conecction to the aruduino and the printer com is for the coneection to the 3d printer used for movement.</li>
 
-rememeber to change the filename in the run_sensor program
+<li>Inside the run_sensor program, a flmename is needed for the array wich are to be plotted onto the magentic material. this file can be downloaded form th emixels webpage. Before runing the program, rememeber to change the filename in the run_sensor program to the name and locaiton of the proper file.</li>
+  
+<li> Int eh init, the variables mag_height and hall_height should be changed based on the callibration of the device. if the material is elevated, the value will have to be recallibrated to account for the new distance. mag_height is for printing patterns and hall_height is for scanning. Before running the program, callibrate and change the heights.</li>
 </ol>
 
-
-
-after pressing run: enter p for plotting mode and s for scanning mode.
-
-in plot mode, the program will read form a pkl file and ask for a number input denoting which matrix in the file to print
-
-example matrices not from a file are also provided in the comments
-
-in scan mode the program will display an image and heat map produced form the scan. the boundry values for the scan can be changed int the progrma
+When all of these changes have been mage nd the program is probaly set up and calibrated. the program can be run. Beow are the instructions for the commands that need to be inputed to the terminal after running the program.
+<ol>
+  <li> after pressing run: enter p for plotting mode and s for scanning mode.</li>
+  <li>
+  a) in plot mode, the program will read form a pkl file and ask for a number input denoting which matrix in the file to print
+     example matrices not from a file are also provided in the comments
+  b)in scan mode the program will display an image and heat map produced form the scan. the boundry values for the scan can be changed int the progrma
 make_img. this progamr also produces pkl files containg the scanned matrix. the filenames can be changed there
+  </li>
 
 
 <h3>total_sensor.ino</h3>
