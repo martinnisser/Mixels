@@ -2,16 +2,18 @@
 code for running magnetic pixel printer and scanner
 
 needed libraries:
-pickle
-numpy
-matplotlib
-tkinter
-system
-serial
-pandas
-qrcode
-PIL
-cv2
+<ul>
+  <li>pickle</li>
+  <li>numpy</li>
+  <li>matplotlib</li>
+  <li>tkinter</li>
+  <li>system</li>
+  <li>serial</li>
+  <li>pandas</li>
+  <li>qrcode</li>
+  <li>PIL</li>
+  <li>cv2</li>
+</ul>
 
 movement.py
 
