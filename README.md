@@ -1,6 +1,6 @@
 # Mixels
 <h2>code for running magnetic pixel printer and scanner</h2>
-<p> This is the code used for the magnetic pixels research done in MIT CSAIL HCI Labs. The project uses reprogrammable magnetic material, and prints magentic patterns on the material using the snapmaker as a 3D movement device and an adruino to control various sensors and electromagent componants.</p>
+<p> This is the code used for the magnetic pixels research done in MIT CSAIL HCIE Labs. The project uses reprogrammable magnetic material, and prints magentic patterns on the material using the snapmaker as a 3D movement device and an arduino to control various sensors and electromagnet components.</p>
 
 <h3>needed libraries:</h3>
 <ul>
