@@ -1,7 +1,7 @@
 # Mixels
-code for running magnetic pixel printer and scanner
+<h2>code for running magnetic pixel printer and scanner</h2>
 
-needed libraries:
+<h3>needed libraries:</h3>
 <ul>
   <li>pickle</li>
   <li>numpy</li>
@@ -15,7 +15,7 @@ needed libraries:
   <li>cv2</li>
 </ul>
 
-movement.py
+<h3>movement.py</h3>
 
 contains the movement class with funtions for priniting and scanning.
 
@@ -35,7 +35,7 @@ in scan mode the prohram will display an image and heat map produced form the sc
 make_img. this progamr also produces pkl files containg the scanned matrix. the filenames can be changed there
 
 
-total_sensor.ino
+<h3>total_sensor.ino</h3>
 
 arduino code coresponding to movement.py
 © 2022 GitHub, Inc.
