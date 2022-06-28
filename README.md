@@ -20,7 +20,7 @@
 
 <p>This file contains the MovementController class which contains the funtions for printing and scanning magentic patterns.</p>
 
-The file currently runs a program called run_sensor which allows for all functionality of both priniting and scanning. before running this program it is important to make not of certain varioable which will need to be changed to suit the setup of the user.
+The file currently runs a program called run_sensor which allows for all functionality of both priniting and scanning. before running this program it is important to make note of certain variables which will need to be changed to suit the setup of the user.
 <ol>
 <li>Sensor and Printer coms are set up in the init. Before running the program, change these values to the coms used for your device. remeber that the sensor com is for the conecction to the aruduino and the printer com is for the coneection to the 3d printer used for movement.</li>
 
