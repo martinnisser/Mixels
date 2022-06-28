@@ -33,10 +33,12 @@ When all of these changes have been mage nd the program is probaly set up and ca
 <ol>
   <li> after pressing run: enter p for plotting mode and s for scanning mode.</li>
   <li>
-  a) in plot mode, the program will read form a pkl file and ask for a number input denoting which matrix in the file to print
-     example matrices not from a file are also provided in the comments
-  b)in scan mode the program will display an image and heat map produced form the scan. the boundry values for the scan can be changed int the progrma
-make_img. this progamr also produces pkl files containg the scanned matrix. the filenames can be changed there
+    <ol>
+      <li>a) in plot mode, the program will read form a pkl file and ask for a number input denoting which matrix in the file to print
+      example matrices not from a file are also provided in the comments</li>
+      <li>b)in scan mode the program will display an image and heat map produced form the scan. the boundry values for the scan can be changed init the program make_img. this program also produces pkl files containg the scanned matrix. the filenames can be changed there </li>
+    </ol>
+
   </li>
 
 
