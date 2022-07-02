@@ -40,6 +40,7 @@ When all of these changes have been made nd the program is properly set up and c
     </ol>
 
   </li>
+ </ol>
 
 
 <h3>mixel_arduino.ino</h3>
