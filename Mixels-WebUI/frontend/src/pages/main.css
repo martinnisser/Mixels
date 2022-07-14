@@ -1,0 +1,188 @@
+/***** Always True *****/
+@media only screen {
+    /*** General Purpose Display Styles ***/
+    .flex {display: flex;}
+    .column {flex-direction: column;}
+    .margin-0 {margin: 0;}
+    .width-100 {width: 100%;}
+    .absolute {position: absolute;}
+    .align-center {align-items: center;}
+    .justify-center {justify-content: center;}
+    .align-self-center {align-self: center;}
+
+    /*** Color Gradients ***/
+    .green  {background: linear-gradient(180deg, #39CBB9 0%, #5BFE9E 100%);}
+    .purple {background: linear-gradient(269.15deg, #C183F2 4.11%, #E5B2FF 96.97%);}
+    .orange {background: linear-gradient(225deg, #D69334 0%, #FD8F3C 88.84%);}
+
+    /*** Shadows ***/
+    .box-shadow {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+    /*** Rotations ***/
+    .rotate-45 {transform: rotate(45deg);}
+
+    .solid-border {
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        /* border-radius: 8px; */
+        /* margin: 1px; */
+    }
+    
+    .square-40px {width: 40px; height: 40px;}
+    /*** Element Styles ***/
+
+    /*** Class Styles ***/
+
+    /*** ID Styles ***/
+
+}
+
+/***** > 600px *****/
+@media only screen and (min-width: 700px) {
+
+}
+
+/***** <= 600px *****/
+@media only screen and (max-width: 700px) {
+
+}
+
+/***** Always True *****/
+@media only screen {
+    /*** General Purpose Display Styles ***/
+    .flex {display: flex;}
+    .column {flex-direction: column;}
+    .margin-0 {margin: 0;}
+    .margin-5px {margin: 5px;}
+    .margin-2halfpx {margin: 1px !important;}
+    .width-100 {width: 100%;}
+    .absolute {position: absolute;}
+    .align-center {align-items: center;}
+    .justify-center {justify-content: center;}
+    .align-self-center {align-self: center;}
+    .scroll {overflow: scroll;}
+    .scroll::-webkit-scrollbar {display: none;}
+    .clickable:hover {cursor: pointer; opacity: 80%;}
+    .padding-0 {padding: 0;}
+
+    /*** Margins ***/
+    .margin-10px {margin: 10px;}
+    .margin-8px {margin: 8px !important;}
+
+    /*** Borders ***/
+    .round-15px {border-radius: 15px;}
+
+    /*** Margins ***/
+    .margin-bottom-10px {margin-bottom: 10px;}
+
+    /*** Widths ***/
+    .width-90 {width: 90%;}
+
+    /*** Squares ***/
+    .square-150px {min-width: 150px; max-width: 150px; min-height: 150px; max-height: 150px;}
+
+    .disable-hover:hover{
+        background: #A9A9A9 !important;
+    }
+
+    .margin-20px {
+        margin-bottom: 20px;
+    }
+
+    /*** Colors ***/    
+    .color-black {color: #000;}
+    .color-red {color: #F5666B !important;}
+    .color-green {color: #39cb54 !important;}
+    .color-yellow {color: #F5EE69 !important;}
+    .color-north 
+    {   color: #f5ee69;
+        background-color: gray;
+                }
+    .color-north 
+    {   
+        color: #ffffff;
+        background-color: rgb(255, 224, 50);
+    }
+    .color-south
+    {   
+        color: #000000;
+        background-color: rgb(255, 224, 50);
+    }
+    .color-demagnetized 
+    {   
+        color: #707070;
+        background-color: rgb(255, 224, 50);
+    }
+
+    /*** Fonts ***/
+    .font-78px {font-size: 78px;}
+
+    /*** Svgs ***/
+    .repulsive {background-image: url('../media/svgs/repulsive.svg');}
+    .attractive {background-image: url('../media/svgs/attractive.svg');}
+
+    /*** Color Gradients ***/
+    .blue {background: linear-gradient(180deg, #87E9FF 0%, #3E9ACD 129.01%);}
+    .green  {background: linear-gradient(180deg, #39cb39 0%, #5BFE9E 100%);}
+    .purple {background: linear-gradient(269.15deg, #C183F2 4.11%, #E5B2FF 96.97%);}
+    .orange {background: linear-gradient(225deg, #D69334 0%, #FD8F3C 88.84%);}
+    .dark-gray {background:#424952;}
+    .light-gray {background: #A9A9A9;}
+    .light-gray:hover {background: #A9A9A9 !important;}
+    .solid-blue {background: #53B5ED;}
+    .solid-green {background-color: #39cb4a;}
+    .solid-yellow {background-color: #F5EE69;}
+    .solid-red {background-color: #f04a4f;}
+    .solid-2 {background-color: #F5EE69;}
+    .solid-2:hover {background: url("../media/images/matrices/matrix_1.png"); background-size: contain;}
+    .solid-3:hover {background: url("../media/images/matrices/matrix_0.png"); background-size: contain;}
+    .solid-4:hover {background: url("../media/images/matrices/matrix_0_inv.png"); background-size: contain;}
+    .solid-2-1 {background: url("../media/images/matrices/matrix_1.png"); background-size: contain;}
+    .solid-3-1 {background: url("../media/images/matrices/matrix_0.png"); background-size: contain;}
+    .solid-4-1 {background: url("../media/images/matrices/matrix_0_inv.png"); background-size: contain;}
+    .solid-3 {background-color: #f04a4f;}
+    .solid-4 {background-color: #39cb4a ;}
+    .solid-0 {background-color: #acacac;}
+    .solid-1 {background-color: #ffffff;}
+    .solid--1 {background-color: #000000;}
+
+    /*** Shadows ***/
+    .box-shadow {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+    /*** Rotations ***/
+    .rotate-45 {transform: rotate(45deg);}
+    
+    /*** Element Styles ***/
+    nav {
+        z-index: 1;
+        width: 100%;
+    }
+
+    /*** Class Styles ***/
+    .navCont {
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-p {
+        margin: 20px !important;
+    }
+
+    .sheet-header {
+        height: 175px;
+    }
+    /*** ID Styles ***/
+
+}
+
+/***** > 600px *****/
+@media only screen and (min-width: 700px) {
+
+}
+
+/***** <= 600px *****/
+@media only screen and (max-width: 700px) {
+
+}

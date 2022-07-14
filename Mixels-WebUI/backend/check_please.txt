@@ -1,0 +1,4 @@
+Questions
+In the ‘Encryption at Rest’ section, the paper states that encryption at the application layer protects against malicious disk firmware. How does that work? Isn’t the malicious firmware on the lower level of the stack? The data has to be decrypted at some point? 
+
+Given the frequency of new services being released, especially with Machine Intelligence involved, how does Google protect against new threads models involving multiple services together. For example, when with Google Photos’ detection of people, Contact Groups in relation with User identity.
