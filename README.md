@@ -47,7 +47,7 @@ When all of these changes have been made nd the program is properly set up and c
 
 This file contains the arduino code coresponding to mixels_terminal.py no values need to be changed in this code.
 
-<h3>Mixels_WebUI<h3>
+<h3>Mixels_WebUI</h3>
 
 This folder containes all of the files needed to set up the web_ui server for generating hadamard patterns. In order to set up the website, go into the folder and follow the directions on the ReadMe there.
 
